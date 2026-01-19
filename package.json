@@ -1,0 +1,39 @@
+{
+  "name": "typingleveltracker",
+  "displayName": "Typing Level Tracker",
+  "description": "Tracks typing XP and Levels",
+  "version": "0.0.1",
+  "publisher": "me",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "typingLevelTracker.showDetails",
+        "title": "Show Level Details"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src --ext ts",
+    "test": "node ./out/test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/node": "20.x",
+    "@types/vscode": "^1.80.0",
+    "@typescript-eslint/eslint-plugin": "^7.0.0",
+    "@typescript-eslint/parser": "^7.0.0",
+    "@vscode/vsce": "^3.7.1",
+    "eslint": "^8.56.0",
+    "typescript": "^5.3.0"
+  }
+}

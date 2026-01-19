@@ -1,2 +1,9 @@
-# typingLevelTracker
-1type = 1xp
+# Typing Level Tracker
+
+文字を打つたびに経験値が貯まり、レベルアップするVSCode拡張機能です。
+
+## 機能
+
+- タイピングするたびにXPを獲得
+- ステータスバーにレベルと進捗を表示
+- クリックで詳細XPを表示
