@@ -1,9 +1,9 @@
 {
   "name": "typingleveltracker",
   "displayName": "Typing Level Tracker",
-  "description": "Tracks typing XP and Levels",
-  "version": "0.0.1",
-  "publisher": "me",
+  "description": "文字を打つたびに経験値を得られる拡張機能 | An extension that earns you experience points every time you type",
+  "version": "1.1.0",
+  "publisher": "Mixfry",
   "engines": {
     "vscode": "^1.80.0"
   },
